@@ -1,0 +1,36 @@
+/*Single product style*/
+.home{
+    display:flex;
+}
+
+.productContainer{
+    display:flex;
+    flex-wrap: wrap;
+    width:78%;
+    padding:20px;
+    justify-content: space-around;
+}
+/*Filters Style*/
+.filters{
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: #343a40;
+    color:white;
+    width:20%;
+    margin:10px;
+    height:140vh;
+}
+
+.filters > span{
+    padding-bottom: 20px;
+}
+
+.title{
+    font-size: 30px;
+}
+.image{
+    display:inline;
+    flex-direction: column;
+    align-items: center;
+}
